@@ -20,6 +20,7 @@ router.post('/card', function(req,res){
     zip: req.body.zip,
     accountNumber: createAccountNumber(),
     currentDate: new Date(),
+    startOfInsurance: new Date(req.body.startOfInsurance),
     cardClass: getCardClass(req.body.type)
   });
 });

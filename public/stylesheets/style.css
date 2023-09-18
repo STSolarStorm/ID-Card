@@ -63,7 +63,12 @@ input, select {
   background-color: #c7aa9c;
 }
 
-
+.title {
+  font: 20px "Lucida Grande", "Papyrus", sans-serif;
+}
+.label {
+  color: #030303;
+}
 
 a {
   color: #00B7FF;
